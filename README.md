@@ -1,16 +1,14 @@
-# google_login
+# JournalMax demo app
+i made my first flutter app.
+this repo is to see if there are any changes i need to make before i can publish it on google playstore.
+> i want to see if the authentication & user-data is safe enough
+> i want to see if there are any better ways to implement stuff that i implemented
 
-A new Flutter project.
+# app usage
 
-## Getting Started
+> users can write their journal in this app everyday
+> all the data is stored locally on device using sqflite
+> authentication is being handled using firebase
+> there's a button when clicked, will take that day's journal entry and display a list of 3 actionable items
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- iOS specific features are yet to be implemented but android features are working fine afaik
